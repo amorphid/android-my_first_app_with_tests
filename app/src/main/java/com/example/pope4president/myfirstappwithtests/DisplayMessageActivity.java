@@ -15,12 +15,14 @@ public class DisplayMessageActivity extends Activity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        TextView textView = new TextView(this);
+        setContentView(R.layout.activity_display_message);
+
+        TextView textView = (TextView) findViewById(R.id.text_sent);
 
         textView.setTextSize(40);
         textView.setText(message);
 
-        setContentView(textView);
+
     }
 
 
