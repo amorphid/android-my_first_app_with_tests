@@ -4,5 +4,6 @@
     <string name="app_name">MyFirstAppWithTests</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="edit_message">Edit message</string>
 
 </resources>
